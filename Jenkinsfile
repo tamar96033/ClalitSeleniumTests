@@ -6,7 +6,7 @@ pipeline {
 
 
     parameters {
-        string(name: 'REPO_URL', defaultValue: 'https://github.com/hila5135/clalitPharmacyAutomation.git', description: 'Repository URL')
+        string(name: 'REPO_URL', defaultValue: 'https://github.com/tamar96033/ClalitSeleniumTests.git', description: 'Repository URL')
         string(name: 'NAME_BRANCH', defaultValue: 'main', description: 'Branch name to build')
     }
 
