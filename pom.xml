@@ -18,23 +18,31 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.21.0</version>
+            <version>4.27.0</version>
         </dependency>
 
-        <!-- TestNG (or JUnit, pick one for your test runner) -->
+        <!-- תלות ל-JUnit או TestNG אם את משתמשת בבדיקות אוטומטיות -->
         <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>7.10.2</version>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.12.1</version>
             <scope>test</scope>
         </dependency>
 
-        <!-- WebDriverManager (auto driver download) -->
+        <!-- תלות ל-WebDriverManager -->
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
-            <version>5.7.0</version>
+            <version>5.9.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.10.1</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
+
 
 </project>
