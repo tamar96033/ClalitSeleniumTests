@@ -72,7 +72,7 @@ pipeline {
         }
     }
     triggers {
-        cron('30 5 * * 1')
+            cron('30 5 * * 1')
 
-    }
+        }
 }
